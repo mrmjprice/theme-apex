@@ -1020,3 +1020,10 @@ div.footer ul li.link-icon a {
   line-height: 10pt;
   padding: 7px;
 }
+
+.tag-home {
+background-color:#000;
+font-weight:700;
+font-size:18px;
+line-height: 14px;
+}
