@@ -142,6 +142,18 @@
               </div>
             </div>
             <div class="post-info">
+                          <a href="{{ post.permalink }}">
+                {% if photo %}
+                <img src="{{ photo.width_600 }}" alt="Picture {{ loop.index }}" />
+                {% else %}
+                <img src="http://placehold.it/400x300/0eafff/ffffff.png" alt="" />
+                {% endif %}
+              </a>
+              {% if post.tags %}
+              <div class="post-tags">
+                <p>{{- post.tags|format_tags(humanize=True) -}}</p>
+              </div>
+              {% endif %}
               <div class="info-left">
                 <p class="date">{{ post.created_at|format_date }}</p>
               </div>
