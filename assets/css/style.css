@@ -1025,7 +1025,8 @@ div.footer ul li.link-icon a {
 background-color:#000;
 display: block;
 font-weight:700;
-font-size:18px;
+font-size:10px;
+color: #FFF;
 margin-right: 10px;
 font-family: Source Sans Pro;
 text-transform: uppercase;
