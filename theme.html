@@ -178,9 +178,13 @@
               <p class="date">{{ post.created_at|format_date }}</p>
             </div>
             <div class="info-right">
-              <p class="comments">
-                <a href="/"><i class="icon-comment"></i> 0</a>
-              </p>
+{% if post.tags %}
+            <ul class="post-tags">
+            {% for tag in post.tags %}
+              <li><a href="/tag/{{ tag }}">{{ tag|format_tag(link=False, humanize=True) }}</a></li>
+            {% endfor %}
+            </ul>
+            {% endif %}
             </div>
           </div>
           <div class="post-body">
@@ -193,14 +197,6 @@
             {% endif %}
 
             {{ theme.social.bar }}
-
-            {% if post.tags %}
-            <ul class="post-tags">
-            {% for tag in post.tags %}
-              <li><a href="/tag/{{ tag }}">{{ tag|format_tag(link=False, humanize=True) }}</a></li>
-            {% endfor %}
-            </ul>
-            {% endif %}
           </div>
           <div class="post-footer">
             <p class="back"><a href="/">&laquo; Go Back</a></p>
