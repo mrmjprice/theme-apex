@@ -709,9 +709,16 @@ div.post .socialbar-container a:hover {
   color: #000000;
 }
 div.post ul.post-tags {
-  display: block;
-  padding: 20px 0 0 0;
-  margin: 0;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 20px 8px 4px 8px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0 5px 0 0;
+  display: inline-block;
+  background-color: #00a3e8;
+  color: #ffffff;
 }
 div.post ul.post-tags li {
   padding: 4px 8px 4px 8px;
