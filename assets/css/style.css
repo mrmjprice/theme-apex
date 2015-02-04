@@ -2,7 +2,7 @@
 @import url(http://postach.io/static/themes/_assets/bootstrap/css/bootstrap-responsive.min.css);
 @import url(http://postach.io/static/themes/_assets/fontawesome/css/font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900,300italic,400italic);
 /*---------------------------------------------------
     LESS Elements 0.9.1
   ---------------------------------------------------
@@ -657,6 +657,7 @@ div.post h2 {
   margin-top: 0;
   padding-top: 0;
   color: #000000;
+  font-family: 'Source Sans Pro', sans-serif; font-weight: 600;
 }
 div.post h2 a {
   color: #000000;
