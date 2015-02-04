@@ -1024,12 +1024,13 @@ div.footer ul li.link-icon a {
 .tag-home {
 background-color:#000;
 display: block;
-font-weight:700;
+font-weight:500;
+padding-left: 5px;
 font-size:14px;
 color: #FFF;
-margin-right: 10px;
 font-family: Source Sans Pro;
 text-transform: uppercase;
+    width: 50px;
 }
 
 .tag-home a {
