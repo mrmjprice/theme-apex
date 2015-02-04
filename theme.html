@@ -138,12 +138,12 @@
           <div class="post span6">
             <div class="row">
               <div class="span6">
-                <h2><span style="background-color:#00a3e8; padding:0px 10px 0px 5px;">
-                  {% if post.tags %}
+               {% if post.tags %}
                     <span class="tag-home">
                       {{- post.tags|format_tags(humanize=True) -}}:
                     </span>
                 {% endif %}
+                <h2><span style="background-color:#00a3e8; padding:0px 10px 0px 5px;">
                 <a href="{{ post.permalink }}">{{ post.title }} <i class="fa angle-double-right"></i></a></span></h2>
               </div>
             </div>
