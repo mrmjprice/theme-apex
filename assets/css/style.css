@@ -234,7 +234,6 @@ input[type="button"].btn {
 a {
   text-decoration: none;
   color: #00a3e8;
-  font-weight: bold;
 }
 a:visited {
   color: #00a3e8;
@@ -353,7 +352,7 @@ div.header div.site-description ul li {
 }
 div.header div.site-description ul li a {
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
 }
 div.header div.site-description ul li a:hover,
 div.header div.site-description ul li a.active {
