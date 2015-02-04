@@ -714,6 +714,7 @@ div.post ul.post-tags {
   margin: 0;  
   font-family: Source Sans Pro;
   font-weight: 500;
+  font-size: 12px;
   text-transform: uppercase;
 }
 div.post ul.post-tags li {
