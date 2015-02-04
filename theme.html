@@ -138,15 +138,12 @@
           <div class="post span6">
             <div class="row">
               <div class="span6">
-                <h2><span style="background-color:#00a3e8; padding:5px; padding-right: 10px;"><a href="{{ post.permalink }}">{{ post.title }}</a></span></h2>
+                <h2><span style="background-color:#00a3e8; padding:5px; padding-right: 10px;"> {% if post.tags %}
+                <p>{{- post.tags|format_tags(humanize=True) -}}</p>
+              {% endif %}<a href="{{ post.permalink }}">{{ post.title }}</a></span></h2>
               </div>
             </div>
             <div class="post-info">
-              {% if post.tags %}
-              <div class="post-tags">
-                <p>{{- post.tags|format_tags(humanize=True) -}}</p>
-              </div>
-              {% endif %}
               <div class="info-left">
                 <p class="date">{{ post.created_at|format_date }}</p>
               </div>
