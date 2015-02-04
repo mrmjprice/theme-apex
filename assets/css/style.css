@@ -714,9 +714,15 @@ div.post ul.post-tags {
   margin: 0;
 }
 div.post ul.post-tags li {
+  padding: 4px 8px 4px 8px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0 5px 0 0;
   display: inline-block;
-  margin: 0;
-  padding: 0;
+  background-color: #00a3e8;
+  color: #ffffff;
+  
 }
 div.post ul.post-tags li a {
   font-size: 14px;
@@ -727,7 +733,7 @@ div.post ul.post-tags li a {
   border-radius: 10px;
   margin: 0 5px 0 0;
   display: inline-block;
-  background-color: #1abc9c;
+  background-color: #00a3e8;
   color: #ffffff;
 }
 div.post ul.post-tags li a:hover {
