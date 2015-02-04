@@ -1,7 +1,7 @@
 @import url(http://postach.io/static/themes/_assets/bootstrap/css/bootstrap.min.css);
 @import url(http://postach.io/static/themes/_assets/bootstrap/css/bootstrap-responsive.min.css);
 @import url(http://postach.io/static/themes/_assets/fontawesome/css/font-awesome.min.css);
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900,300italic,400italic);
 /*---------------------------------------------------
     LESS Elements 0.9.1
@@ -181,7 +181,7 @@ html {
 }
 body {
   line-height: 1.65;
-  font-family: 'Lora', serif;
+  font-family: 'Old Standard TT', serif;
   height: 100%;
   width: 100%;
 }
